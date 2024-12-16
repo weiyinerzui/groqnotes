@@ -21,8 +21,7 @@ gemini_api_key = os.getenv('GEMINI_API_KEY')
 genai.configure(api_key=gemini_api_key, transport='rest')
 # Constants
 MAX_TOKENS_PER_CHUNK = 1000
-FILENAME = r"D:\Download\花了2万多买的Python教程全套，现在分享给大家，入门到精通(Python全栈开发教程)\118-117.Python中的多态-480P 清晰-AVC.mp4"
-
+FILENAME = r"D:\WorkSpace\@Project\audio00.aac"
 # Initialize Groq client
 client = Groq()
 
